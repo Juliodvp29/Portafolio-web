@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <!-- ======  ICONS ====== -->
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> -->
     <a href='https://www.freepik.es/vectores/personas'></a>
-    <title>Portafolio</title>
+    <title>Juliodvp29</title>
 </head>
 <body>
      <!-- ======  HEADER ====== -->
      <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">Mi Portafolio</a>
+                <a href="#" class="nav__logo">Juli Otero</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -38,7 +39,7 @@
      <main class="l-main">
          <section class="home bd-grid" id="home">
              <div class="home__data">
-                 <h1 class="home__title">Bienvenido, <br>Soy <span class="home__title-color">Julio</span><br>Frontend Developer</h1>
+                 <h1 class="home__title">Bienvenido, <br>Soy <span class="home__title-color">Julio</span><br>Software Developer</h1>
                  <br>
                  <a href="#" class="button">Contactame</a>
              </div>
@@ -64,7 +65,7 @@
 
                    <div>
                        <h2 class="about__subtitle">Soy Julio</h2>
-                       <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                       <p class="about__text">Hola soy un desarrollador de software que ejerce como freelance estoy ubicado en colombia, soy un amante de la tecnologia y la icnovacion</p>
                    </div>
                 </div>
             </section>
@@ -74,8 +75,8 @@
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Conocimiento certificado</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <h2 class="skills__subtitle">Conocimiento de calidad</h2>
+                        <p class="skills__text">Manejo varios tecnologias con las cuales pudeo aseguar desarrolo de calida y ofrecer el mejor servicio</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
@@ -109,19 +110,43 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">80%</span>
+                                <span class="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-python skills__icon'></i>
-                                <span class="skills__name">Python</span>
+                                <i class='bx bxl-php skills__icon'></i>
+                                <span class="skills__name">PHP</span>
                             </div>
-                            <div class="skills__bar skills__python">
+                            <div class="skills__bar skills__php">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">75%</span>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon'></i>
+                                <span class="skills__name">MySql</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -133,51 +158,58 @@
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">95%</span>
+                                <span class="skills__percentage">80%</span>
                             </div>
                         </div>
                     </div>
                     <div>              
-                        <img src="assets/img/skill.jpg" alt="" class="skills__img">
+                        <img src="/assets/img/skill.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
             <!-- ======  SERVICE ====== -->
             <section class="service section" id="service">
-                <h2 class="section-title">Servicios</h2>
+                <h2 class="section-title">Proyectos</h2>
                 <div class="service__container bd-grid">
                     <div class="service__img">
-                        <img src="/assets/img/five.jpg" alt="">
+                        <img src="/assets/img/WEB.png" alt="">
                     </div>
                     <div class="service__img">
-                        <img src="/assets/img/two.jpg" alt="">
+                        <img src="/assets/img/weather_js.png" alt="">
                     </div>
                     <div class="service__img">
-                        <img src="/assets/img/three.jpg" alt="">
+                        <img src="/assets/img/task.png" alt="">
                     </div>
                     <div class="service__img">
-                        <img src="/assets/img/four.jpg" alt="">
+                        <img src="/assets/img/inv.png" alt="">
                     </div>
                     <div class="service__img">
-                        <img src="/assets/img/one.jpg" alt="">
+                        <img src="/assets/img/chat.png" alt="">
                     </div>
                     <div class="service__img">
-                        <img src="/assets/img/six.jpg" alt="">
+                        <img src="/assets/img/bot.png" alt="">
                     </div>
                 </div>
+                <br>
+                <a href="#" class="button apoyame"><i class="bx bxl-paypal"></i>Apoyame</a>
             </section>
+
+           
+
+
+
             <!-- ======  CONTACT ====== -->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contacto</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact_form">
-                        <input type="text" placeholder="Nombre" class="contact__input">
-                        <input type="tel" placeholder="Telefono" class="contact__input">
-                        <input type="email" placeholder="Correo" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <form action="#" class="contact_form" id="form">
+                        <input name="name" type="text" placeholder="Nombre" class="contact__input">
+                        <input name="phone" type="tel" placeholder="Telefono" class="contact__input">
+                        <input name="email" type="email" placeholder="Correo" class="contact__input">
+                        <textarea name="coments" id="" cols="0" rows="10" class="contact__input"></textarea>
 
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input id="btn_contact" type="submit" value="Enviar" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -203,5 +235,7 @@
     
      <!-- ======  MAIN JS ====== -->
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/data.js"></script>
+
 </body>
 </html>
